@@ -1,0 +1,93 @@
+Section 1: Built-in Data Types (int, float, str, list, tuple, dict, bool, set)
+Check Data Type:
+Ask the user to enter a value and print its data type. Then determine if it’s a number or not.
+-------------------------------------------------------------------------------------------------------
+Dynamic Type Detector:
+Take three inputs from the user and detect which one is integer, float, or string using type() and conditionals.
+-------------------------------------------------------------------------------------------------------
+
+
+🔹 Section 2: Setting Specific Data Types / Type Conversion
+Type Conversion Challenge:
+Input 2 numbers as strings and add them as:
+
+Strings (concatenation)
+
+Integers (sum)
+
+Floats (sum)
+
+Temperature Converter:
+Take temperature in Celsius from the user, convert to Fahrenheit and Kelvin using correct type conversions.
+-------------------------------------------------------------------------------------------------------
+
+Year and Age Logic:
+Take user’s birth year (as string), convert to integer, and calculate their age assuming the current year is 2025.
+-------------------------------------------------------------------------------------------------------
+
+
+Type Validation:
+Ask the user to input a value and tell:
+
+Is it an integer?
+
+Is it a float?
+
+Is it a boolean (True/False)?
+-------------------------------------------------------------------------------------------------------
+
+
+Add Two Numbers Function:
+Create a program that takes two floats and returns their rounded sum. Use proper type hinting.
+-------------------------------------------------------------------------------------------------------
+Area Calculator:
+Write a program to calculate the area of a rectangle. Accept length and width as floats. Use -> float in return.
+-------------------------------------------------------------------------------------------------------
+Student Info Storage:
+Accept name, roll_no, and marks from the user. Use type annotations and store in a dictionary.
+-------------------------------------------------------------------------------------------------------
+Formatted Receipt Generator:
+Accept item name (str), quantity (int), and price (float). Calculate total and display the receipt with formatted output.
+-------------------------------------------------------------------------------------------------------
+🔹 Section3 : User Input – Applied Problems
+Simple Calculator:
+Ask user for two numbers and an operator (+, -, *, /). Perform the operation and display result.
+-------------------------------------------------------------------------------------------------------
+Number Classifier:
+Input a number and classify as:
+
+Positive/Negative/Zero
+
+Even/Odd
+
+Prime/Not Prime
+-------------------------------------------------------------------------------------------------------
+Voting Eligibility Checker:
+Take name and age, determine if the user is eligible to vote (18+), and print a friendly message.
+-------------------------------------------------------------------------------------------------------
+Student Grades:
+Take marks of 5 subjects and calculate total, average, and grade (A/B/C/Fail) based on average.
+-------------------------------------------------------------------------------------------------------
+Basic Login System:
+Create a username/password input and check if they match predefined values. Allow 3 attempts.
+-------------------------------------------------------------------------------------------------------
+Loan Eligibility:
+Take user’s age, income, and credit score as input. Based on conditions (e.g., income > 30K, score > 700), check loan eligibility.
+-------------------------------------------------------------------------------------------------------
+Palindrome Checker:
+Ask the user to enter a string. Check if it is a palindrome (same forwards and backwards).
+-------------------------------------------------------------------------------------------------------
+Digit Sum Calculator:
+Take a number from the user and calculate the sum of its digits (e.g., 123 → 6).
+-------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
