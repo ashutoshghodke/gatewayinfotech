@@ -1,0 +1,195 @@
+---------------- Python Data Types ----------------
+Built-in Data Types
+Text Type:	str
+Numeric Types:	int, float, complex
+Sequence Types:	list, tuple, range 
+Mapping Type:	dict {key:value}
+Set Types:	set, frozenset 
+Boolean Type:	bool
+
+
+
+---------------- Getting the Data Type ----------------
+You can get the data type of any object by using the type() function:
+
+
+Setting the Specific Data Type
+If you want to specify the data type, you can use the following constructor functions:
+x = str("Hello World")	str	
+x = int(20)	int	
+x = float(20.5)	float	
+x = complex(1j)
+
+
+---------------- Python Numbers ----------------
+There are three numeric types in Python:
+
+int
+float
+complex
+Variables of numeric types are created when you assign a value to them:
+
+x = 1    # int
+y = 2.8  # float
+z = 1j   # complex      
+
+
+---------------- Int ----------------
+Int, or integer, is a whole number, positive or negative, without decimals, of unlimited length.
+x = 1
+y = 35656222554887711
+z = -3255522
+
+print(type(x))
+print(type(y))
+print(type(z))
+
+
+---------------- Float ----------------
+Float, or "floating point number" is a number, positive or negative, containing one or more decimals.
+Represents real numbers with decimal points.
+x = 1.10
+y = 1.0
+z = -35.59
+
+print(type(x))
+print(type(y))
+print(type(z))
+
+Float can also be scientific numbers with an "e" to indicate the power of 10.
+x = 35e3
+y = 12E4
+z = -87.7e100
+
+print(type(x))
+print(type(y))
+print(type(z))
+---------------- str  ------------------------
+Used to represent text data, enclosed in single ' or double " quotes.
+
+name = "Ashutosh"
+message = 'Hello, world!'
+print(type(name))  # Output: <class 'str'>
+
+
+
+---------------- Complex ----------------
+Complex numbers are written with a "j" as the imaginary part:
+Used to represent complex numbers in the form a + bj, where:
+a is the real part
+
+b is the imaginary part
+z = 3 + 4j
+print(type(z))  # Output: <class 'complex'>
+print(z.real)   # Output: 3.0
+print(z.imag)   # Output: 4.0
+
+
+x = 3+5j
+y = 5j
+z = -5j
+
+print(type(x))
+print(type(y))
+print(type(z))
+
+--------------- bool (Boolean) ------------------------
+Represents True or False (internally treated as 1 and 0). Used for logical conditions.
+
+is_valid = True
+is_empty = False
+print(type(is_valid))  # Output: <class 'bool'>
+
+
+----------------- NoneType -----------------------
+Represents the absence of value (null in other languages).
+
+value = None
+print(type(value))  # Output: <class 'NoneType'>
+===========================================================================
+Data Type	               Example	                     Description
+int	                          5	                         Whole number
+float	                     5.75	                     Decimal number
+complex	                     3+2j	                     Complex number
+str	                         "Hi"	                     Text string
+bool                       	True/false 	                 Boolean value
+
+==============================================================================
+
+---------------- Type Conversion ------------------
+You can convert from one type to another with the int(), float(), and complex() methods:
+x = 1    # int
+y = 2.8  # float
+z = 1j   # complex
+
+#convert from int to float:
+a = float(x)
+
+#convert from float to int:
+b = int(y)
+
+#convert from int to complex:
+c = complex(x)
+
+print(a)
+print(b)
+print(c)
+
+print(type(a))
+print(type(b))
+print(type(c))
+
+
+Note: You cannot convert complex numbers into another number type.
+
+---------------- Random Number----------------
+Python does not have a random() function to make a random number, but Python has a built-in module called random that can be used to make random numbers:
+
+import random
+
+print(random.randrange(1, 10))
+
+
+
+---------------- Specify a Variable Type ----------------
+There may be times when you want to specify a type on to a variable. This can be done with casting. Python is an object-orientated language, and as such it uses classes to define data types, including its primitive types.
+
+Casting in python is therefore done using constructor functions:
+
+int() - constructs an integer number from an integer literal, a float literal (by removing all decimals), or a string literal (providing the string represents a whole number)
+float() - constructs a float number from an integer literal, a float literal or a string literal (providing the string represents a float or an integer)
+str() - constructs a string from a wide variety of data types, including strings, integer literals and float literals
+
+
+x = int(1)   # x will be 1
+y = int(2.8) # y will be 2
+z = int("3") # z will be 3
+
+
+x = float(1)     # x will be 1.0
+y = float(2.8)   # y will be 2.8
+z = float("3")   # z will be 3.0
+w = float("4.2") # w will be 4.2
+
+------------------- User Input --------------------
+
+In Python, to take user input, you use the input() function.
+
+name = input("Enter your name: ")
+print("Hello,", name)
+
+
+age = int(input("Enter your age: "))
+print("You will be", age + 1, "next year.")
+
+
+salary = float(input("Enter your salary: "))
+print("Salary entered:", salary)
+
+
+x, y = input("Enter two numbers separated by space: ").split()
+x = int(x)
+y = int(y)
+print("Sum is:", x + y)
+
+-----------------------------------------------------------------------------------
