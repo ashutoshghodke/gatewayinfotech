@@ -119,3 +119,6 @@
 # x = int(x)
 # y = float(y)
 # print("Sum is:", x + y)
+
+a="asdfgh"
+print(len(a))

@@ -1,0 +1,62 @@
+Slicing Strings
+Extract the first 5 characters from the string "HelloWorld".
+
+Get every second character from "pythonprogramming".
+
+Reverse the string "DataEngineer".
+
+Slice "machinelearning" to get "learn".
+
+replace()
+Replace all occurrences of "apple" with "orange" in "apple apple banana".
+
+Replace only the first "is" with "was" in "This is easy, is it not?".
+
+
+upper() and lower()
+Convert "welcome To Python" to all uppercase.
+
+Convert "HELLO EVERYONE" to all lowercase.
+
+
+Concatenation
+Concatenate "Good" and "Morning" with a space in between.
+
+Join three strings "Data", "Science", "Rocks" using +.
+
+
+format()
+Use .format() to insert a name "Ashutosh" and age 28 into "My name is {} and I am {} years old.".
+
+Format the float value 45.6789 to show only 2 decimal places.
+
+capitalize()
+Capitalize the first letter of "hello world".
+
+
+casefold()
+Compare two strings "Python" and "PYTHON" for equality using .casefold().
+
+
+center()
+Center the word "Python" in a string of length 20 using * as the fill character.
+
+count()
+Count the number of occurrences of "a" in "banana".
+
+Count how many times "the" appears in "The theater is near the theme park" (case-insensitive).
+
+endswith()
+Check if "programming.py" ends with ".py".
+
+Check if "hello.txt" ends with ".doc".
+
+
+Mixed
+Take the string "hello world":
+
+Convert it to uppercase,
+
+Replace "HELLO" with "HI",
+
+Slice the last 5 characters.
