@@ -16,6 +16,7 @@ Replace only the first "is" with "was" in "This is easy, is it not?".
 upper() and lower()
 Convert "welcome To Python" to all uppercase.
 
+
 Convert "HELLO EVERYONE" to all lowercase.
 
 
