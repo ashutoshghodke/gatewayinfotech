@@ -1,4 +1,4 @@
-Secret_number = 32
+Secret_number = 42
 Password=123123
 USERNAME="ROHINI"
 
