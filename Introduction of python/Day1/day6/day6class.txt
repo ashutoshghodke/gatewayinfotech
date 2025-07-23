@@ -179,3 +179,6 @@ Execution continues normally with the next statement in the loop.
 #         pass  # Placeholder: code will be added later
 #     print(num)
 # print("Loop finished.\n")
+
+
+.................. hello sanket..................
