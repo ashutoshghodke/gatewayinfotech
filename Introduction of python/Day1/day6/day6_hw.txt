@@ -1,0 +1,96 @@
+
+====================== LOGIC BUILDING QUESTIONS ==============
+
+--------------- For Loops ---------------
+Print all prime numbers between 1 and 100 using a for loop.
+
+Write a program to print a multiplication table for a number entered by the user.
+
+Count and display how many vowels are in a given string using a for loop.
+
+Print a pattern like this using a for loop:
+*
+**
+***
+****
+
+
+Write a program to reverse a string without using slicing, only with a for loop.
+
+Create a list of 10 numbers and print the sum of only even numbers using for loop and continue.
+
+Generate the Fibonacci sequence up to the first 15 numbers using for loop.
+
+--------------- While Loops ---------------
+Keep asking the user for input until they type "exit", then stop using a while loop.
+
+Write a program to check if a number is an Armstrong number, using a while loop.
+
+Find the factorial of a number using a while loop.
+
+Use a while loop to keep dividing a number by 2 until it becomes less than 1, and print the number of divisions.
+
+Write a program that keeps asking for a password until the correct password ("python123") is entered.
+
+--------------- Using break, continue, pass ---------------
+Write a program to display numbers from 1 to 50, but stop the loop if the number is divisible by both 3 and 7 using break.
+
+Print all numbers between 1 and 30, skipping those that are divisible by 4 using continue.
+
+Write a program where pass is used inside a loop as a placeholder for a future feature (e.g., add a feature later when the number is negative).
+
+
+--------------- Combination of All Concepts ---------------
+
+--------------- ATM Simulation ---------------
+
+Start with an account balance (e.g., ₹5000).
+
+Menu-driven using while loop:
+
+Deposit money
+
+Withdraw money
+
+Check balance
+
+Exit
+
+Use break to exit, continue for invalid choices, and pass for a "loan feature coming soon".
+
+
+--------------- Simple Quiz Game ---------------
+
+Ask 5 multiple-choice questions.
+
+For each wrong answer, print "Wrong! Try again." and continue to the next question.
+
+If the user types "quit", break the game.
+
+Use pass for a future "hint system".
+
+
+--------------- Pattern Printing Tool ---------------
+
+User chooses from 3 patterns (triangle, square, pyramid).
+
+Use for loops to generate the patterns.
+
+Use continue to skip invalid sizes and break if the user chooses "exit".
+
+
+
+--------------- Library Book Borrowing System ---------------
+
+A list of available books is displayed.
+
+User can borrow, return, or view books.
+
+break to exit the system.
+
+continue when the user enters a wrong book name.
+
+pass for a "late fee calculator" feature to be added later.
+
+
+===================================================================================================
