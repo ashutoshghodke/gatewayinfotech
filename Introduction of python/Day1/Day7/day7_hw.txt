@@ -1,0 +1,157 @@
+📝 Moderate Questions (1-50)
+Basic Operations & Indexing
+Create a list of your 5 favorite fruits and print the list.
+
+Print the third fruit from your list.
+
+Print the last fruit from your list using a negative index.
+
+Change the second fruit in your list to "grape" and print the updated list.
+
+Add a new fruit "mango" to the end of your list.
+
+Insert "kiwi" at the beginning of your list.
+
+Print the fruits from the second to the fourth position.
+
+Print all fruits from the third position to the end.
+
+Print the number of fruits in your list.
+
+Check if "apple" is in your list and print the result (True or False).
+
+List Methods
+Create a list of numbers: [10, 20, 30, 40, 50]. Use append() to add 60.
+
+Use insert() to add 25 at index 2 of the number list.
+
+Use remove() to remove 40 from the number list.
+
+Use pop() to remove the last number from the list and print the removed number.
+
+Use clear() to empty the list.
+
+Create a new list [1, 5, 2, 8, 3]. Use sort() to sort it in ascending order.
+
+Sort the list from the previous question in descending order.
+
+Create a list of strings: ["A", "C", "B"]. Sort it alphabetically.
+
+Create a list: ["red", "green", "blue"]. Use reverse() to reverse the order.
+
+Create a list with duplicates: [1, 2, 2, 3, 4, 2]. Use count() to find how many times 2 appears.
+
+Combining Lists
+Create two lists: list_a = [1, 2] and list_b = [3, 4]. Combine them using + and store in list_c.
+
+Create two lists: list_d = ["a", "b"] and list_e = ["c", "d"]. Use extend() to add list_e to list_d.
+
+What's the difference between append() and extend()? Give an example.
+
+Create a list my_list = [1, 2, 3] and assign new_list = my_list. Modify new_list by adding 4. What does my_list look like? Why?
+
+Create a true copy of my_list from the previous question using copy(). Modify the copy and observe the original.
+
+Loops & List Comprehension
+Use a for loop to print each item in a list of colors.
+
+Use a for loop to print the square of each number in [1, 2, 3, 4].
+
+Use a for loop to find the largest number in a list of numbers.
+
+Create a new list using list comprehension that contains the squares of numbers from [1, 2, 3, 4].
+
+Create a new list using list comprehension that contains only the even numbers from [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].
+
+Problem Solving
+Vowel Counter: Create a list of vowels ['a', 'e', 'i', 'o', 'u']. Ask the user to input a word, then use a loop to count how many vowels are in the word.
+
+Reverse a String: Take a string (e.g., "Python") and use a list to reverse it.
+
+Sum of a List: Write a program that calculates the sum of all numbers in a list.
+
+Find the Smallest Number: Write a program to find the smallest number in a list without using the min() function.
+
+Remove Duplicates: Given a list with duplicate numbers, create a new list that contains only the unique numbers.
+
+Tic-Tac-Toe Board: Create a list that represents a simple Tic-Tac-Toe board [['', '', ''], ['', '', ''], ['', '', '']]. Print the board.
+
+Guess the Number Game: Create a list of 5 numbers. Ask the user to guess a number. Check if the guessed number is in the list and tell them if they are correct.
+
+Split a Sentence: Take a sentence from the user and use the split() method to create a list of words. Print the list.
+
+Join a List: Take a list of words and use the join() method to turn it back into a single sentence.
+
+Factorial: Create a list to store the factorial of a given number.
+
+Palindrome Checker: Take a word from the user and check if it's a palindrome (reads the same forwards and backwards) by comparing the original list of characters with its reversed version.
+
+Nested List: Create a list that contains two other lists (e.g., [[1, 2], [3, 4]]). Access and print the number 4.
+
+Matrix Addition: Add two matrices (represented as nested lists) of the same size.
+
+Counting Words: Take a sentence and count how many times each word appears. Store the result in a list of lists (e.g., [['hello', 2], ['world', 1]]).
+
+Shopping List: Create an empty list called shopping_list. Ask the user to enter 3 items and add each to the list. Print the final list.
+
+Filter a List: Create a function that takes a list of numbers and a threshold value, then returns a new list containing only the numbers greater than the threshold.
+
+Slicing Challenge: Given data = ['A', 'B', 'C', 'D', 'E', 'F'], print a new list containing ['C', 'D'] using slicing.
+
+index() with try-except: Use try-except to gracefully handle the error that occurs when index() is called on an item not in the list.
+
+Removing Specific Items: Write a program that takes a list and a value, then removes all occurrences of that value from the list.
+
+List of Tuples: Create a list of tuples, where each tuple contains a name and an age, e.g., [('Alice', 30), ('Bob', 25)]. Print the name of the second person.
+
+🧠 Complex Questions (51-75)
+Advanced List Operations & Logic
+Find Second Largest: Write a program to find the second largest number in a list.
+
+Rotate List: Write a function that takes a list and an integer k, then rotates the list to the right by k steps. For example, [1, 2, 3, 4, 5] with k=2 becomes [4, 5, 1, 2, 3].
+
+Flatten a Nested List: Given a nested list like [[1, 2, [3]], 4, 5], write a program to flatten it into a single list [1, 2, 3, 4, 5].
+
+Pascal's Triangle: Generate the first n rows of Pascal's triangle and store them as a nested list.
+
+List Comprehension with If-Else: Create a list using list comprehension that contains "Even" or "Odd" for each number in a list of integers.
+
+Sublist Search: Given two lists, list_A and list_B, check if list_B is a sublist of list_A.
+
+Sudoku Checker: Given a 9x9 grid represented as a nested list, write a function that checks if it is a valid Sudoku board (without checking the 3x3 squares).
+
+Prime Numbers: Create a program that generates a list of prime numbers up to a given limit using a list and loops.
+
+Fibonacci Sequence: Generate the first n numbers of the Fibonacci sequence and store them in a list.
+
+Sieve of Eratosthenes: Implement the Sieve of Eratosthenes algorithm to find all prime numbers up to a specified integer.
+
+Matrix Transpose: Given a matrix represented by a nested list, create a new list that is the transpose of the original.
+
+Anagrams: Given a list of words, group them into anagrams (e.g., ['eat', 'tea', 'tan', 'ate', 'nat', 'bat'] becomes [['eat', 'tea', 'ate'], ['tan', 'nat'], ['bat']]).
+
+Most Frequent Element: Find the element that appears most frequently in a list.
+
+Merge Sorted Lists: Given two sorted lists, merge them into a single sorted list. You cannot use the built-in sort() method on the final list.
+
+Longest Common Subsequence: Find the length of the longest common subsequence between two lists.
+
+Wave Array: Given an array, sort it into a "wave" form. An array arr[0...n-1] is sorted in wave form if arr[0] >= arr[1] <= arr[2] >= arr[3] <= arr[4]...
+
+List Intersection: Find the intersection of two lists (all elements that are in both lists).
+
+List Union: Find the union of two lists (all unique elements from both lists).
+
+Cartesian Product: Given two lists, find their Cartesian product (a list of all possible pairs of elements from both lists).
+
+Spiral Matrix: Given a matrix (nested list), print all elements of the matrix in spiral order.
+
+Remove Nth Node from End: Given a list, remove the nth element from the end of the list.
+
+Kadane's Algorithm: Given a list of numbers, find the contiguous sub-array with the largest sum.
+
+Counting Inversions: In a list of numbers, an inversion is a pair of indices i, j such that i < j and a[i] > a[j]. Count the number of inversions.
+
+Permutations: Given a list of distinct numbers, return all possible permutations.
+
+Combination Sum: Given a list of distinct integers and a target integer, return a list of all unique combinations where the chosen numbers sum to the target.
