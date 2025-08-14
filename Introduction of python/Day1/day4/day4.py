@@ -37,7 +37,7 @@
 # a="ASHUTOSH"
 # print(a.lower())
 
-
-a = " Hello, World! "
-# print(a)
-print(a.strip()) # returns "Hello, World!"
+# --- date ,string ragexp 
+# a = " Hello, World! "
+# # print(a)
+# print(a.strip()) # returns "Hello, World!"
