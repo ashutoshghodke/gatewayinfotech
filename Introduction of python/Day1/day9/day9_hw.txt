@@ -1,0 +1,83 @@
+-------------------------------------------------------------------------------------------------------
+
+Create a set of 5 fruits and print it.
+
+Create a set of numbers and show that duplicates are automatically removed.
+
+Create an empty set and add 5 city names to it.
+
+Add two new colors to a set called colors.
+
+Remove a fruit from a set using remove() method.
+
+Remove an animal from a set using discard() method (animal might not exist).
+
+Use pop() on a set and print the removed element.
+
+Clear all items from a set and print it.
+
+Create a set of subjects and check if "Math" is present in it.
+
+Find the length of a set containing different countries.
+
+Create two sets of numbers and find their union.
+
+Create two sets of numbers and find their intersection.
+
+Create two sets of names and find the difference between them.
+
+Create two sets of numbers and find the symmetric difference.
+
+Create two sets: odd_numbers and even_numbers. Find their union.
+
+Create two sets of sports and check if they have any common sport.
+
+Given A = {1, 2, 3} and B = {1, 2, 3, 4, 5}, check if A is a subset of B.
+
+Given X = {2, 4, 6, 8} and Y = {4, 8}, check if Y is a subset of X.
+
+Find if two sets are disjoint (no common elements).
+
+Create two sets and update the first one with the union of both.
+
+Loop through a set of animals and print each one.
+
+Count how many elements in a set are greater than 50.
+
+From a set of words, print only those words which have more than 5 letters.
+
+Merge two sets using a loop (without using union method).
+
+From a set of marks, print only marks greater than or equal to 90.
+
+Find common elements between two sets without using intersection method.
+
+Print the largest number from a set of integers.
+
+Print the smallest number from a set of integers.
+
+From a set of strings, find the longest string.
+
+From a set of strings, find the shortest string.
+
+Convert a list of numbers with duplicates into a set (remove duplicates).
+
+Convert a tuple of fruits into a set.
+
+Given a list of tuples with student marks, find all unique tuples using a set.
+
+Convert a set of numbers into a list and sort it.
+
+Convert a set of numbers into a tuple and print it.
+
+Create a set from a list of city names and count unique cities.
+
+Create a set from a tuple of roll numbers and check if a roll number exists.
+
+Given a list of names, remove duplicates using set and print sorted names.
+
+Store seating arrangements (tuples) in a list, remove duplicates using set.
+
+Given a list of tuples with cricket scores, find the unique score combinations.
+
+------------------------------------------------------------------------------------------

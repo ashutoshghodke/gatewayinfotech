@@ -83,3 +83,52 @@
 # # Nested Tuples:
 # nested = ((1, 2), (3, 4))
 # print(nested[1][0])  # 2
+
+
+# ✈️ Flight Seat Bookings - List, Tuple, and Set Example (Beginner Friendly)
+
+# Step 1: Data (List of Tuples - each tuple = fixed row seating)
+bookings = [
+    ("Amit", "Ravi", "Priya"),   # Row 1
+    ("Sita", "Rahul", "Neha"),   # Row 2
+    ("Amit", "Ravi", "Priya"),   # Row 3 (duplicate of Row 1)
+    ("Vijay", "Meena", "Arun")   # Row 4
+]
+
+# Step 2: Show all bookings (LIST allows duplicates)
+print("📋 All Seat Bookings (List Format):")
+row_number = 1
+for row in bookings:
+    print("Row", row_number, ":", row)
+    row_number += 1
+
+print("-" * 40)
+
+# Step 3: Convert List → Set to find UNIQUE bookings
+unique_bookings = set(bookings)
+
+print("✅ Unique Seat Arrangements (Set Format):")
+for row in unique_bookings:
+    print(row)
+
+print("-" * 40)
+
+# Step 4: Count unique arrangements
+print("Total Unique Arrangements:", len(unique_bookings))
+
+print("-" * 40)
+
+# Step 5: Search for a passenger in the bookings
+search_name = input("🔍 Enter a passenger name to search: ").strip()
+
+found_rows = []
+row_number = 1
+for row in bookings:
+    if search_name in row:
+        found_rows.append(row_number)
+    row_number += 1
+
+if found_rows:
+    print(f"🎯 {search_name} is seated in Row(s):", found_rows)
+else:
+    print(f"❌ {search_name} is not found in any booking.")
