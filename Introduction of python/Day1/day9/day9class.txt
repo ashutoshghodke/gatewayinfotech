@@ -1,0 +1,191 @@
+Think of a set like a "collection of friends in a WhatsApp group" — no friend can be added twice.
+
+. What is a Set?
+
+Definition: A set in Python is a collection of unique items.
+
+Key Points:
+
+No duplicate values.
+
+Items are unordered (no fixed position).
+
+Written inside curly braces {}.
+
+my_set = {1, 2, 3, 4}
+print(my_set)  # Output: {1, 2, 3, 4}
+
+# Duplicate will be removed automatically
+my_set = {1, 2, 2, 3}
+print(my_set)  # Output: {1, 2, 3}
+
+
+Creating a Set
+# From curly braces
+fruits = {"apple", "banana", "mango"}
+print(fruits)
+
+# From a list using set()
+numbers = set([1, 2, 3, 3, 4])
+print(numbers)  # Output: {1, 2, 3, 4}
+
+# Empty set
+empty_set = set()
+print(empty_set)
+
+
+Important Rules
+
+Set items must be immutable (cannot change).
+
+You can store numbers, strings, tuples.
+
+You cannot store lists or dictionaries.
+
+Order is not guaranteed.
+
+No duplicates allowed.
+
+
+
+Accessing Items in a Set
+
+Sets do not support indexing like lists.
+
+We use loops to access items.
+
+colors = {"red", "blue", "green"}
+for color in colors:
+    print(color)
+
+
+Adding and Removing Items
+
+add() → Add single item
+
+update() → Add multiple items
+
+remove() → Remove item (Error if not found)
+
+discard() → Remove item (No error if not found)
+
+pop() → Remove and return random item
+
+clear() → Remove all items
+
+
+
+animals = {"dog", "cat"}
+
+# Add single
+animals.add("lion")
+print(animals)
+
+# Add multiple
+animals.update(["tiger", "elephant"])
+print(animals)
+
+# Remove
+animals.remove("cat")
+print(animals)
+
+# Discard
+animals.discard("cow")  # No error if 'cow' not present
+
+# Pop
+item = animals.pop()
+print("Removed:", item)
+
+# Clear
+animals.clear()
+print(animals)  # Output: set()Think of a set like a "collection of friends in a WhatsApp group" — no friend can be added twice.
+
+
+
+
+Set Operations
+
+Union ( | or union() ) → All items from both sets (no duplicates)
+
+Intersection ( & or intersection() ) → Common items in both sets
+
+Difference ( - or difference() ) → Items in first set but not in second
+
+Symmetric Difference ( ^ or symmetric_difference() ) → Items in either set, but not both
+
+
+
+A = {1, 2, 3}
+B = {3, 4, 5}
+
+print(A | B)   # Union → {1, 2, 3, 4, 5}
+print(A & B)   # Intersection → {3}
+print(A - B)   # Difference → {1, 2}
+print(A ^ B)   # Symmetric Difference → {1, 2, 4, 5}
+
+
+
+| Method                         | Purpose              | Example                           |
+| ------------------------------ | -------------------- | --------------------------------- |
+| `len(set)
+                                 | Count items          | `len(myset)`                      |
+| `set.add(x)`                   | Add item             | `myset.add(10)`                   |
+| `set.update([...])`            | Add multiple         | `myset.update([1, 2])`            |
+| `set.remove(x)`                | Remove item          | `myset.remove(2)`                 |
+| `set.discard(x)`               | Remove if exists     | `myset.discard(5)`                |
+| `set.pop()`                    | Remove random item   | `myset.pop()`                     |
+| `set.clear()`                  | Empty set            | `myset.clear()`                   |
+| `set.union(s2)`                | Union                | `set1.union(set2)`                |
+| `set.intersection(s2)`         | Intersection         | `set1.intersection(set2)`         |
+| `set.difference(s2)`           | Difference           | `set1.difference(set2)`           |
+| `set.symmetric_difference(s2)` | Symmetric Difference | `set1.symmetric_difference(set2)` |
+
+
+
+# ✈️ Flight Seat Bookings - List, Tuple, and Set Example (Beginner Friendly)
+
+# Step 1: Data (List of Tuples - each tuple = fixed row seating)
+bookings = [
+    ("Amit", "Ravi", "Priya"),   # Row 1
+    ("Sita", "Rahul", "Neha"),   # Row 2
+    ("Amit", "Ravi", "Priya"),   # Row 3 (duplicate of Row 1)
+    ("Vijay", "Meena", "Arun")   # Row 4
+]
+
+# Step 2: Show all bookings (LIST allows duplicates)
+print("📋 All Seat Bookings (List Format):")
+row_number = 1
+for row in bookings:
+    print("Row", row_number, ":", row)
+    row_number += 1
+
+print("-" * 40)
+
+# Step 3: Convert List → Set to find UNIQUE bookings
+unique_bookings = set(bookings)
+
+print("✅ Unique Seat Arrangements (Set Format):")
+for row in unique_bookings:
+    print(row)
+
+print("-" * 40)
+
+# Step 4: Count unique arrangements
+print("Total Unique Arrangements:", len(unique_bookings))
+
+print("-" * 40)
+
+# Step 5: Search for a passenger in the bookings
+search_name = input("🔍 Enter a passenger name to search: ").strip()
+
+found_rows = []
+row_number = 1
+for row in bookings:
+    if search_name in row:
+        found_rows.append(row_number)
+    row_number += 1
+
+if found_rows:
+    print(f"🎯 {search_name} is seated in Row(s):", found_rows)
+else:
+    print(f"❌ {search_name} is not found in any booking.")
