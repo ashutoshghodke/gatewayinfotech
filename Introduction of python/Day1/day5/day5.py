@@ -48,4 +48,23 @@
 # else:
 #     print("access denied")
 """
+from dev.config import treasure
 
+# Treasure dictionary (secret box)
+treasure = {
+    "Red Room": "treasure 💎",
+    "Blue Room": "treasure🪙",
+    "Green Room": "treasure ⚔️",
+    "Black Room": "treasure 😢"
+}
+
+print("Welcome to the Treasure Hunt Game!")
+
+# Ask student to choose a room
+choice = input("Which room do you want to enter? (Red Room/Blue Room/Green Room/Black Room): ")
+
+# Find treasure
+if choice in treasure:
+    print("You found:", treasure[choice])
+else:
+    print("This room does not exist!")
