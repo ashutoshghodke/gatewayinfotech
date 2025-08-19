@@ -29,7 +29,7 @@ print(phone_book["Mom"])      # Output: 9876543210
 
 
 Dictionary Methods (Explain with Fun Examples)
-🔹 Add new entry
+Add new entry
 
 students["Rahul"] = 90
 print(students)
@@ -39,7 +39,7 @@ Change value
 students["Amit"] = 95   # Amit’s marks updated
 
 
-🔹 Delete entry
+ Delete entry
 del students["Ravi"]
 
 
