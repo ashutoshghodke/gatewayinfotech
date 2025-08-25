@@ -21,7 +21,7 @@ Type Code	 	        Python Type	                  Minimum Size in Bytes
 'I'	unsigned 	             int                                 2
 'f'	float	                 float	                             4
 'd'	double	                 float	                             8
-
+'u' char                      char                               1
 
 When to Use array vs. list
 Use an array when you need to store a large number of items of the same data type and memory efficiency or performance is a concern.
