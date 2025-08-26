@@ -1,0 +1,83 @@
+2. What is a Function?
+A function is a reusable block of code that does a specific job.
+
+
+Example 1: Without Function
+# Printing welcome message multiple times
+print("Welcome to Python class!")
+print("Welcome to Python class!")
+print("Welcome to Python class!")
+
+
+Example 2: With Function
+def welcome():
+    print("Welcome to Python class!")
+
+# Calling the function 3 times
+welcome()
+welcome()
+welcome()
+
+
+3. Types of Functions
+(A) Function without Parameters
+Real-life: TV remote → You press "Power" button → it always does the same thing (turn on/off).
+
+def greet():
+    print("Hello, How are you?")
+
+greet()   # calling the function
+
+
+(B) Function with Parameters
+
+👉 Real-life: Coffee machine → You choose “sugar level” → it prepares coffee accordingly.
+
+def greet(name):
+    print("Hello", name, "How are you?")
+
+greet("Amit")
+greet("Sita")
+
+
+(C) Function with Return Value
+
+👉 Real-life: ATM → You enter PIN → It gives you money (output).
+def add(a, b):
+    return a + b
+
+result = add(5, 3)
+print("Sum is:", result)
+
+
+(D) Default Parameter
+
+👉 Real-life: Pizza order → If you don’t choose extra cheese, default is no extra cheese.
+def order_pizza(flavour="Margherita"):
+    print("You ordered", flavour, "pizza!")
+
+order_pizza("Cheese Burst")
+order_pizza()   # default will be Margherita
+
+4. Why Functions are Useful?
+
+Reusability ✅ (no need to write same code again)
+
+Clean code ✅
+
+Easy to debug ✅
+
+Saves time ✅
+
+
+Function to calculate simple interest.
+def simple_interest(principal, rate, time):
+    si = (principal * rate * time) / 100
+    return si
+
+# Example usage
+p = 1000  # Principal
+r = 5     # Rate of Interest
+t = 2     # Time in years
+
+print("Simple Interest is:", simple_interest(p, r, t))
