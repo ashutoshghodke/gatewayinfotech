@@ -1,0 +1,27 @@
+ --------------- Python If-Else Logic Building Homework ----------------
+
+
+1. Even or Odd: Ask the user for a number and check if it is even or odd.
+2. Positive, Negative, or Zero: Take a number and check whether it is positive, negative, or zero.
+3. Voting Eligibility: Ask user's age and tell if they are eligible to vote (age >= 18).
+4. Greatest of Two Numbers: Input two numbers and print which one is greater or if they are equal.
+5. Pass or Fail: Ask marks out of 100. Print Pass if marks >= 40, else Fail.
+6. Simple Login Check: Ask username and password. If username='admin' and password='1234',
+print 'Login Successful', else 'Login Failed'.
+7. Leap Year Checker: Input a year and check if it is a leap year.
+8. Ticket Price Calculator: Age <5: free, 5-12: Rs 50, >12: Rs 100.
+9. Character Case Checker: Check if a character is uppercase, lowercase, digit, or special
+character.
+10. Number Guessing Game: Secret number = 7. Ask user to guess and check.
+11. Electricity Bill: Units <=50: Rs 2/unit; 51-150: Rs 3/unit; above 150: Rs 5/unit.
+12. Discount & GST: Apply 10% discount and then add 18% GST to original price.
+13. Second Largest: Find second largest among three numbers.
+14. BMI Calculator: BMI = weight/(height^2). Classify as Underweight (<18.5), Normal (18.5-24.9),
+Overweight (>=25).
+15. Grade Calculator: Average marks of 5 subjects: A >=90, B >=75, C >=50, Fail <50.
+16. ATM Simulation: Ask balance and amount. Deduct only if balance is sufficient.
+17. Triangle Checker: Check if three sides form a valid triangle. If valid, print type: Equilateral,
+Isosceles, or Scalene.
+18. Rock-Paper-Scissors: User vs computer. Decide winner.
+19. Movie Ticket: Ask age and time. Apply 20% discount if student (<18).
+20. Traffic Signal: Ask color. Green: Go, Red: Stop, Yellow: Wait.

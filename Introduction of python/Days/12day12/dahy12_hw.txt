@@ -1,0 +1,110 @@
+🔹 Part A: Functions + If Statements (1–10)
+
+Write a function to check if a number is positive, negative, or zero.
+
+Write a function that takes a student’s marks and prints whether they got Grade A, B, C, or Fail.
+
+Write a function that checks whether a given year is a leap year.
+
+Write a function that checks if a given string is a palindrome.
+
+Write a function that returns the maximum of three numbers using if-elif-else.
+
+Write a function that checks whether a number is prime.
+
+Write a function that calculates the electricity bill based on units (use multiple conditions).
+
+Write a function that checks whether the entered character is a vowel or consonant.
+
+Write a function that determines if someone is eligible for a loan (based on age, salary, and credit score).
+
+Write a function to classify a triangle as Equilateral, Isosceles, or Scalene using side lengths.
+
+🔹 Part B: Functions + While Loops (11–20)
+
+Write a function to print the sum of digits of a number using a while loop.
+
+Write a function to reverse a number using a while loop.
+
+Write a function that keeps asking the user for input until they type "exit".
+
+Write a function that prints the factorial of a number using a while loop.
+
+Write a function to generate the Fibonacci series up to n terms.
+
+Write a function that checks whether a number is an Armstrong number.
+
+Write a function to repeatedly take numbers from a user until they enter 0, then return the largest number entered.
+
+Write a function that keeps asking for a password until the user enters the correct one.
+
+Write a function that finds the HCF (Highest Common Factor) of two numbers using a while loop.
+
+Write a function to check if a number is a perfect number.
+
+🔹 Part C: Functions + For Loops (21–30)
+
+Write a function to print the multiplication table of a number.
+
+Write a function to print all prime numbers between 1 and 100.
+
+Write a function to find the sum of all even numbers in a given list.
+
+Write a function that prints the square of each number in a list.
+
+Write a function that counts how many times each element occurs in a list.
+
+Write a function that finds the largest element in a tuple.
+
+Write a function that removes duplicates from a list using a set.
+
+Write a function that finds the union and intersection of two sets.
+
+Write a function that counts the number of vowels in a string.
+
+Write a function that prints all numbers divisible by 3 and 5 in a given range.
+
+🔹 Part D: Functions + Loop Control (break, continue, pass) (31–35)
+
+Write a function that takes numbers from a list and prints only the positive numbers (skip negative using continue).
+
+Write a function to search for a number in a list and stop searching once found (use break).
+
+Write a function that prints only odd numbers in a range, but skips multiples of 5.
+
+Write a function that loops through numbers 1–10 but does nothing when the number is 5 (use pass).
+
+Write a function that simulates a guessing game: keep asking until the user guesses the correct number (use break).
+
+🔹 Part E: Functions + Lists, Tuples, Sets, Dictionaries (36–40)
+
+Write a function that takes a list of numbers and returns a new list with only even numbers.
+
+Write a function that takes a dictionary of student names and marks, and returns the name of the student with the highest marks.
+
+Write a function that takes two lists and returns a dictionary where keys are elements of the first list and values are elements of the second list.
+
+Write a function that checks if two strings are anagrams using sets.
+
+Write a function that takes a list of tuples (student_name, score) and returns the student with the highest score.
+
+Write a function that takes a list of numbers and returns a list of squares of those numbers.
+
+Write a function that takes a list of names and returns a set of unique names.
+
+Write a function that takes a tuple of numbers and returns the second largest element.
+
+Write a function that merges two dictionaries into one.
+
+Write a function that counts how many times each character appears in a string (store result in a dictionary).
+
+Write a function that removes all duplicate words from a sentence and returns the sentence as a list of words.
+
+Write a function that takes a dictionary of employees (name: salary) and returns the average salary.
+
+Write a function that finds the common elements between two lists using sets.
+
+Write a function that converts a dictionary into a list of tuples (key, value).
+
+Write a function that takes a list of tuples (student_name, score) and returns a dictionary grouping students by score.
+👉 Example: [("Amit", 90), ("Sita", 85), ("Rahul", 90)] → {90: ["Amit", "Rahul"], 85: ["Sita"]}

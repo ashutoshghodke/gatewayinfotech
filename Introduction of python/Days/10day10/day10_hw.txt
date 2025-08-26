@@ -1,0 +1,80 @@
+Create a dictionary of 3 fruits and their colors. Print it.
+
+Create a dictionary of 3 countries and their capitals. Print only the capitals.
+
+Add a new country-capital pair to the dictionary.
+
+Update the capital of an existing country.
+
+Delete one country from the dictionary.
+
+Print only the keys of a dictionary.
+
+Print only the values of a dictionary.
+
+Check if "India" is present as a key in your dictionary.
+
+Create a dictionary of your 3 friends and their ages. Print the age of one friend.
+
+Create an empty dictionary and add 3 key-value pairs one by one.
+
+Write a program to count how many times each letter appears in the word "banana".
+
+Store 5 students’ names and their marks in a dictionary. Print the student who scored the highest marks.
+
+Merge two dictionaries
+d1 = {"a": 1, "b": 2}
+d2 = {"c": 3, "d": 4}
+
+
+Write a program to check if a dictionary is empty or not.
+
+Given a dictionary:
+numbers = {1: "One", 2: "Two", 3: "Three"}
+Print the word for number 2.
+
+ Write a program to create a dictionary of squares (keys 1 to 5, values = squares).
+ Write a program to get the sum of all values in a dictionary.
+ Write a program to find the key with the maximum value in a dictionary.
+ Write a program to swap keys and values in a dictionary.
+ Write a program to check if two dictionaries are equal or not.
+
+Part C – Nested & Practical (Q21–30)
+
+Create a nested dictionary of 3 employees with their name, age, and department. Print one employee’s department.
+
+Create a dictionary library with book titles as keys and authors as values. Print all book titles.
+
+Store your family members and their favorite food in a dictionary. Print the favorite food of your mom.
+
+Write a program to count the frequency of each word in a sentence.
+
+Given a student dictionary with marks, calculate the average marks.
+
+Create a dictionary of 3 states and their cities (list of cities as values). Print all cities of one state.
+
+Create a dictionary of 3 movies and their release years. Print movies released after 2010.
+
+Write a program to remove all duplicate values from a dictionary.
+
+Create a dictionary of fruits and prices. Print all fruits costing more than 50.
+
+Create a dictionary of rooms and treasures. Let the user choose a room and print the treasure.
+
+Build a dictionary of countries and capitals. Ask the user to type a country and print its capital.
+
+Create a quiz dictionary with 3 questions and answers. Ask user to answer and give score.
+
+Store student roll numbers and names. Ask the user to enter a roll number → print the name.
+
+Create a dictionary of English words and their Hindi meanings. Ask the user to translate a word.
+
+Treasure Hunt: Store treasures in dictionary keys (Red Room, Blue Room, etc.). Let user guess the correct room.
+
+Create a dictionary of usernames and passwords. Ask user to login by checking dictionary.
+
+Store 5 products and prices. Ask the user to enter product names → print total bill.
+
+Store cricket players and their scores. Ask the user to guess who scored the highest.
+
+Store suspects (name, place, item). Write code to find who is the thief (like detective puzzle).

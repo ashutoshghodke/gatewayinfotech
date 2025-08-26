@@ -1,0 +1,77 @@
+Create an empty tuple and print its type.
+
+Create a tuple with numbers 1 to 5 and print it.
+
+Create a tuple with different data types (integer, string, boolean, float).
+
+Create a tuple without using parentheses and print it.
+
+Create a tuple with a single element and show its type.
+
+Create a tuple from a list [1, 2, 3] using the tuple() function.
+
+Create a tuple from the string "Python" and print it.
+
+Access the 3rd element of a tuple (10, 20, 30, 40, 50).
+
+Access the last element of a tuple (5, 10, 15, 20).
+
+Create a tuple (1, 2, 3, 1, 4, 1) and count how many times 1 appears.
+
+Find the index of 50 in (10, 20, 30, 40, 50).
+
+Try to modify a tuple (1, 2, 3) by changing its first element. What happens?
+
+Concatenate (1, 2, 3) and (4, 5, 6) and print the result.
+
+Repeat the tuple (10, 20) three times using the * operator.
+
+Check if 30 is in (10, 20, 30, 40).
+
+Unpack (100, 200, 300) into three variables and print them.
+
+Swap the values of two variables using tuple unpacking.
+
+Create a nested tuple ((1, 2), (3, 4)) and print the second element of the first tuple.
+
+Create a tuple (1, 2, 3) and convert it into a list.
+
+Iterate over (10, 20, 30, 40) and print each element.
+
+Iterate over (5, 10, 15) and print only even numbers.
+
+Find the length of (1, 2, 3, 4, 5).
+
+Write a program to check if a tuple is empty.
+
+Reverse (10, 20, 30, 40) using slicing.
+
+Create a tuple (1, 2, 3, 4, 5) and get elements at even indexes only.
+
+Create a tuple (10, 20, 30, 40, 50) and get elements from index 1 to 4.
+
+Create a tuple (10, 20, 30) and check if all elements are greater than 5.
+
+Create a tuple (5, 10, 15, 20) and calculate the sum of all elements.
+
+Create a tuple (1, 2, 3, 4) and print elements in reverse order using a loop.
+
+Store the coordinates (27.1751, 78.0421) in a tuple and print them in “Latitude: X, Longitude: Y” format.
+
+Store RGB values for red, green, and blue in tuples and print them.
+
+Create a tuple containing the names of the days of the week. Print only weekends.
+
+Store student details (Name, Age, Grade) in a tuple and print them in a formatted way.
+
+Create a tuple containing multiple lists and modify one of the lists inside it.
+
+Create a tuple (1, 2, 3) and another tuple (4, 5, 6) — merge them without using +.
+
+Write a program to check if two tuples have any elements in common.
+
+Write a program to convert a tuple of strings into a single concatenated string.
+
+Write a program to find the maximum and minimum value from (5, 8, 2, 9, 1).
+
+Write a program to count how many strings in a tuple start with the letter “A”.

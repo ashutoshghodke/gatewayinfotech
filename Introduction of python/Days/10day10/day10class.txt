@@ -1,0 +1,57 @@
+Explain the Concept
+
+A dictionary stores data in key : value pairs.
+
+Key = unique (like student’s name or roll number).
+
+Value = information of that key (like marks, phone number, etc).
+
+Dictionaries are written inside { }.
+
+
+# A dictionary of students and their marks
+students = {
+    "Amit": 85,
+    "Sneha": 92,
+    "Ravi": 78
+}
+
+print(students)
+
+
+phone_book = {
+    "Mom": "9876543210",
+    "Dad": "9123456789",
+    "Best Friend": "9988776655"
+}
+
+print(phone_book["Mom"])      # Output: 9876543210
+
+
+Dictionary Methods (Explain with Fun Examples)
+Add new entry
+
+students["Rahul"] = 90
+print(students)
+
+{p1:100
+p2:200
+.
+.
+/
+.}
+p11111:10000
+
+Change value
+students["Amit"] = 95 =59=95   # Amit’s marks updated
+
+
+ Delete entry
+del students["Ravi"]
+
+
+Get keys & values
+
+print(students.keys())   # All names
+print(students.values()) # All marks
+

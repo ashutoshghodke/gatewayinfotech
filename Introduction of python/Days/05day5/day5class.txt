@@ -1,0 +1,48 @@
+-------------------- conditional statement is: --------------------
+
+"A conditional statement lets your program make decisions.
+If a condition is true, do something; otherwise, do something else."
+
+
+IF :
+  CONDTION =TRUE 
+        LOG IN VALID 
+
+
+
+IF :
+  CONDTION =TRUE 
+        LOG IN VALID
+
+ELSE:
+    CONDTION =False
+        LOG IN INVALID
+
+
+IF :
+  CONDTION =FALSE (PASSWORD)
+        LOG INVALID
+
+ELIF:
+    CONDTION= TURE (FINGERPRINT)
+        LOG IN VALID
+ELSE:
+    CONDTION =False
+        LOG IN INVALID
+
+
+encript =>decription 
+
+port=8080
+db_password=asdfghjk
+db_username=sanket 
+
+== Secret  ===>folder ==> port=8080,db_password=asdfghjk,db_username=rtyuw
+
+
+import secret ===> if email = sanket@gmail.com ==access else =access dnied 
+port=port
+db_password=db_password
+db_username=db_username
+
+======================================================

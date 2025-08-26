@@ -1,0 +1,18 @@
+All students are required to complete at least 1000 practice questions from the shared website.
+This exercise is designed to strengthen your programming logic and enhance problem-solving skills.
+I kindly request everyone to complete this assessment diligently to further hone your programming abilities.
+Once completed, we will continue with the remaining topics in our next session on Monday.
+
+
+The website URL are :-
+
+1] https://www.w3resource.com/python-exercises/python-basic-exercises.php
+
+2] https://www.geeksforgeeks.org/python/python-quizzes/
+
+3] https://pynative.com/python-exercises-with-solutions/
+
+
+
+NOTE :- SOLVE THE PROBLEMS ONLY RESPECTIVE WITH THE LEARNED SYLLABUS ,DON'T SOLVE THE PROBLEM WHICH CONTAINS OF 
+OTHER CONCEPT THAT WE YET TO LEARN ....

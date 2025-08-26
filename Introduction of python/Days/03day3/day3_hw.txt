@@ -1,0 +1,41 @@
+Section 1: Built-in Data Types (int, float, str, list, tuple, dict, bool, set)
+Check Data Type:
+Ask the user to enter a value and print its data type. Then determine if it’s a number or not.
+-------------------------------------------------------------------------------------------------------
+Dynamic Type Detector:
+Take three inputs from the user and detect which one is integer, float, or string using type() and conditionals.
+-------------------------------------------------------------------------------------------------------
+
+
+🔹 Section 2: Setting Specific Data Types / Type Conversion
+Type Conversion Challenge:
+Input 2 numbers as strings and add them as:
+
+Strings (concatenation)
+
+Integers (sum)
+
+Floats (sum)
+
+Temperature Converter:
+Take temperature in Celsius from the user, convert to Fahrenheit and Kelvin using correct type conversions.
+-------------------------------------------------------------------------------------------------------
+
+Year and Age Logic:
+Take user’s birth year (as string), convert to integer, and calculate their age assuming the current year is 2025.
+-------------------------------------------------------------------------------------------------------
+
+
+
+Add Two Numbers Function:
+Create a program that takes two floats and returns their rounded sum. Use proper type hinting.
+-------------------------------------------------------------------------------------------------------
+Area Calculator:
+Write a program to calculate the area of a rectangle. Accept length and width as floats. Use -> float in return.
+-------------------------------------------------------------------------------------------------------
+Student Info Storage:
+Accept name, roll_no, and marks from the user. Use type annotations and store in a dictionary.
+-------------------------------------------------------------------------------------------------------
+Formatted Receipt Generator:
+Accept item name (str), quantity (int), and price (float). Calculate total and display the receipt with formatted output.
+-------------------------------------------------------------------------------------------------------

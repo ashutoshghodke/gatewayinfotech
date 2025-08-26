@@ -1,0 +1,78 @@
+# Q: Assign your name and age to two variables and print them.
+# Example output: My name is Ashutosh and I am 25 years old.
+----------------------------------------------------------------------------------
+# Q: Identify which variable names are valid or invalid:
+# _myvar, my_var, 2ndname, user-name, class, userName
+
+# Try writing code with these names and see which give errors.
+----------------------------------------------------------------------------------
+# Q: Assign values 10, 20, 30 to a, b, c in one line and print them.
+
+----------------------------------------------------------------------------------
+# Q: Assign the value 100 to variables x, y, z in one line. Then print all three.
+----------------------------------------------------------------------------------
+# Q: Assign a float to a variable and print its type using type() function.
+----------------------------------------------------------------------------------
+# Q: Take two variables a = 5, b = 10 and swap them without using a third variable.
+----------------------------------------------------------------------------------
+# Q: Use f-string to print: "Ashutosh is 27 years old and lives in Pune"
+# Use variables for name, age, city.
+----------------------------------------------------------------------------------
+# Q: Take name and age as input from the user and print: "Hello, [name]! You are [age] years old."
+
+----------------------------------------------------------------------------------
+# Q: Write a program to take 2 numbers from the user and print their sum, difference, product, and division.
+
+----------------------------------------------------------------------------------
+# Q: Define a variable `PI = 3.14`. Use it to calculate the area of a circle with radius 5.
+# Note: Though Python doesn't support constants, use capital letters as a convention.
+
+----------------------------------------------------------------------------------
+# Q: Assign your first and last name to two variables.
+# Print your full name in one line using string concatenation.
+----------------------------------------------------------------------------------
+# Q: Create a variable with an underscore (e.g., user_age) and assign it a value.
+# Print it using an f-string.
+----------------------------------------------------------------------------------
+# Q: Create two variables `value` and `Value`, assign them different numbers.
+# Print both and observe the output.
+----------------------------------------------------------------------------------
+# Q: Assign an integer to variable `x`, then assign a string to the same `x`.
+# Print type before and after re-assignment.
+----------------------------------------------------------------------------------
+# Q: Try creating a variable named `class` and assign it a value.
+# Observe the error and fix it with a valid name.
+----------------------------------------------------------------------------------
+# Q: Use `.format()` method to print: “The cost of 5 apples is ₹150”
+# Use variables for quantity and price.
+----------------------------------------------------------------------------------
+# Q: Print a message using `%s` and `%d` formatting style. Example: "User Ashutosh is 27 years old."
+----------------------------------------------------------------------------------
+# Q: Assign values to multiple variables using line continuation:
+# Example:
+# x = 1 + \
+#     2 + \
+#     3
+# Print x.
+
+----------------------------------------------------------------------------------
+# Q: Assign the result of a mathematical expression (e.g., 10 + 5 * 2) to a variable.
+# Print it.
+----------------------------------------------------------------------------------
+
+# Q: x = y = z = 5 + 10
+# Print x, y, z
+----------------------------------------------------------------------------------
+
+# Q: Take two numbers as input from the user, assign to `a` and `b`, and print their average.
+
+----------------------------------------------------------------------------------
+# Q: Assign a string with special characters like newline (`\n`) and tab (`\t`) to a variable.
+# Print it and observe the effect.
+
+----------------------------------------------------------------------------------
+# Q: Use `print(a, b, sep='-', end='!')` to customize print output.
+
+----------------------------------------------------------------------------------
+# Q: Create two variables with the same value and print their `id()` to check if they refer to the same object.
+----------------------------------------------------------------------------------
