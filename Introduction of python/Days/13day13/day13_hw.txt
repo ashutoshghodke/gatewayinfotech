@@ -1,0 +1,111 @@
+🔹 Part A: Comprehensions (List, Dictionary, Set) – 20 Questions
+
+Create a list of squares of all even numbers from 1–50 using list comprehension.
+
+Generate a list of prime numbers between 1 and 100 using comprehension.
+
+Extract all words from a given sentence that are longer than 5 letters using list comprehension.
+
+Convert a list of tuples [(‘a’, 1), (‘b’, 2), (‘c’, 3)] into a dictionary using dict comprehension.
+
+Count the frequency of each character in a string using dict comprehension.
+
+Create a dictionary mapping numbers 1–10 to their cubes, but only for odd numbers.
+
+Extract unique vowels from a string using set comprehension.
+
+Generate a set of all numbers divisible by both 3 and 5 between 1 and 100.
+
+Flatten a 2D matrix into a 1D list using list comprehension.
+
+From a list of words, create a dictionary where the key is the word and value is its length.
+
+Reverse keys and values of a dictionary using dict comprehension.
+
+Given two lists, create a dict comprehension mapping elements of one list to the other.
+
+Generate a list of tuples (x, y) where x ranges 1–5 and y ranges 1–5, but only include pairs where x < y.
+
+Extract all palindrome words from a list of strings using comprehension.
+
+Build a dictionary that groups words by their first letter from a given list.
+
+Create a set of all substrings of a given word using set comprehension.
+
+Convert a nested list into a single flattened list using nested comprehension.
+
+Generate a list of factorials from 1 to 10 using comprehension (without importing math.factorial).
+
+From a matrix, create a list of diagonal elements using comprehension.
+
+Filter only those dictionary items where the value is greater than 10 using dict comprehension.
+
+🔹 Part B: Lambda Functions – 10 Questions
+
+Write a lambda function to check if a number is prime.
+
+Use a lambda function to find the maximum of three numbers.
+
+Create a lambda function to reverse a string.
+
+Sort a list of tuples [(‘a’, 3), (‘b’, 1), (‘c’, 2)] by the second element using lambda.
+
+Write a lambda function to calculate the sum of digits of a number.
+
+Use a lambda function to check if a string is a palindrome.
+
+Sort a list of dictionaries by a specific key using lambda.
+
+Write a lambda function to compute the GCD of two numbers.
+
+Create a lambda to find the intersection of two lists.
+
+Use a lambda to find the longest word in a list of strings.
+
+🔹 Part C: Map, Filter, Reduce – 20 Questions
+
+Use map to convert a list of strings to uppercase.
+
+Use map to calculate the cube of each number in a list.
+
+Use filter to extract numbers that are multiples of 7 from a list.
+
+Use filter to keep only words starting with a vowel from a list of strings.
+
+Use reduce to calculate the product of all elements in a list.
+
+Use reduce to find the maximum element in a list.
+
+Use map and lambda to generate the Fibonacci sequence up to 10 elements.
+
+Use filter to remove all duplicates from a list (keeping only unique elements).
+
+Use map to calculate the length of each word in a list of strings.
+
+Use reduce to concatenate all strings in a list into one string.
+
+Use filter to extract prime numbers from a list.
+
+Use map to square each element of a matrix.
+
+Use reduce to compute the sum of squares of numbers in a list.
+
+Use filter and map together to first filter even numbers and then cube them.
+
+Use map to replace all spaces in a list of strings with underscores.
+
+Use reduce to calculate the GCD of a list of numbers.
+
+Use map to convert temperatures in Celsius to Fahrenheit.
+
+Use filter to remove empty strings from a list.
+
+Use map and reduce together to compute the factorial of a number.
+
+Use map, filter, and reduce in a single pipeline to:
+
+Filter out odd numbers from a list,
+
+Square the remaining numbers,
+
+Then sum them all up.
