@@ -1,0 +1,110 @@
+Exception Handling (15 Questions)
+
+Write a program to handle division by zero error.
+
+Write a program to convert a string into an integer, handle the case if input is not a number.
+
+Write a program to take two numbers from the user and divide them. Handle both ValueError and ZeroDivisionError.
+
+Demonstrate use of else in exception handling with a square root program.
+
+Demonstrate use of finally block in a program that opens and closes a file.
+
+Write a program that raises ValueError if age is below 18.
+
+Write a program that raises a custom exception NegativeNumberError if a negative number is entered.
+
+Write a program to handle multiple exceptions (ValueError, TypeError, IndexError).
+
+Create a program that handles file not found error when trying to open a file.
+
+Write a program that takes user input and tries to access it as a list index. Handle IndexError.
+
+Write a program where you define your own exception class TooHotError if temperature > 45.
+
+Write a program that retries until the user enters a valid integer.
+
+Write a program that reads from a file, handles FileNotFoundError, and prints a message if file doesn’t exist.
+
+Write a program that demonstrates try-except-else-finally all in one program.
+
+Write a calculator program that handles invalid operators using exception handling.
+
+
+Iterators (10 Questions)
+
+Create an iterator for a list of numbers and print each element using next().
+
+Create an iterator for a string and print characters one by one.
+
+Write a program to manually iterate through a tuple using iter() and next().
+
+Create a class CountDown that acts as an iterator to count down from n to 1.
+
+Create an iterator for prime numbers less than 20.
+
+Write a program to create an iterator for even numbers from 2 to 20.
+
+Create a custom iterator class ReverseIterator that returns items of a list in reverse order.
+
+Write an iterator that returns the squares of numbers from 1 to 10.
+
+Create an iterator that cycles through the letters "A", "B", "C" infinitely. (Stop after 10 outputs).
+
+Demonstrate iteration over a dictionary using iter().
+
+
+Generators (15 Questions)
+
+Write a generator function to yield numbers from 1 to 10.
+
+Write a generator function that yields squares of numbers from 1 to 5.
+
+Write a generator that yields even numbers up to 20.
+
+Write a generator that yields characters of a string one by one.
+
+Write a generator that yields Fibonacci sequence up to 50.
+
+Write a generator for prime numbers up to 50.
+
+Write a generator that yields factorials of numbers from 1 to 6.
+
+Write a generator that yields numbers in reverse from n to 1.
+
+Write a generator to yield cubes of first 10 numbers.
+
+Write a generator that yields numbers divisible by 3 and 5 up to 100.
+
+Write a generator that yields only vowels from a given string.
+
+Write a generator that yields words from a sentence one by one.
+
+Write a generator that yields infinite natural numbers (stop after 10 outputs).
+
+Write a generator that yields multiplication table of a given number.
+
+Write a generator that yields alternate elements of a list.
+
+
+Decorators (10 Questions)
+
+Write a decorator that prints "Function Started" and "Function Ended" before and after a function.
+
+Write a decorator that measures the execution time of a function.
+
+Write a decorator that converts the result of a function into uppercase.
+
+Write a decorator that logs function name every time it is called.
+
+Write a decorator that runs a function twice.
+
+Write a decorator that checks if user is logged in before running a function (simulate with variable).
+
+Write a decorator that counts how many times a function has been called.
+
+Write a decorator that only allows even arguments to be passed to a function.
+
+Write a decorator that adds a border of stars (*****) before and after the function output.
+
+Write a decorator that caches results of a function (memoization).
