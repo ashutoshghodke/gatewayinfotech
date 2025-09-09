@@ -1,3 +1,7 @@
+
+
+------- see on chat gpt "what is unicode in the python "
+
 Exception Handling (15 Questions)
 
 Write a program to handle division by zero error.

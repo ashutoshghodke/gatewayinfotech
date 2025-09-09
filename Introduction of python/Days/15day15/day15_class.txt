@@ -1,0 +1,88 @@
+Imagine you are in a big library 📚. You cannot carry all books at once. Instead, you ask the librarian to
+give you one book at a time whenever you ask. That’s how Python handles big collections using Iterators.
+
+Later, instead of storing all books in memory, you ask the librarian to generate books on demand. That’s where Generators come in.
+
+And finally, sometimes you want to decorate the book with a nice cover 🎁 before reading. That’s what Decorators do in Python.”
+
+
+Iterators
+📌 Explanation:
+
+An Iterator is an object that gives you items one at a time when you call next().
+
+Lists, tuples, sets, etc. are iterables, but they need an iterator to go item by item.
+
+numbers = [10, 20, 30]
+it = iter(numbers)  # make iterator
+
+print(next(it))  # 10
+print(next(it))  # 20
+print(next(it))  # 30
+
+
+Generators
+📌 Explanation:
+
+A Generator is like a special function that remembers its state.
+
+Instead of return, we use yield.
+
+Saves memory because it produces values on demand.
+
+def count_up_to(n):
+    x = 1
+    while x <= n:
+        yield x   # give one value
+        x += 1
+
+gen = count_up_to(3)
+
+print(next(gen))  # 1
+print(next(gen))  # 2
+print(next(gen))  # 3
+
+
+
+Decorators
+📌 Explanation:
+
+A Decorator is like a gift wrapper 🎁 for a function.
+
+It takes a function, adds some extra work, and gives back the new function.
+
+
+def greet_decorator(func):
+    def wrapper():
+        print("👋 Hello!")
+        func()
+        print("🎉 Bye!")
+    return wrapper
+
+@greet_decorator
+def say_name():
+    print("My name is MONSTER.")
+
+say_name()
+
+
+
+Iterator = librarian giving one book at a time.
+
+Generator = librarian creating books only when asked.
+
+Decorator = librarian wrapping the book in a cover before handing it.
+
+
+Exception Handling
+🧑‍🏫 Explanation
+
+Errors crash a program.
+
+Exceptions let us catch problems and continue safely.
+
+
+
+a=10
+b=0
+print(a/b)
