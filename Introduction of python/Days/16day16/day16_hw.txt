@@ -1,0 +1,121 @@
+Part A: Classes & Objects (1–6)
+
+Create a class Book with attributes title and author. Create two objects and print their details.
+
+Write a program to create a Car class with attributes brand and model. Print them using an object.
+
+Make a class Pen with color and price. Create 3 different pens and print their colors.
+
+Write a class Student that takes name and age. Print "Student admitted: name, age".
+
+Create a Laptop class with attributes brand, ram, and price. Create 2 laptops and print details.
+
+Make a Mobile class. Ask user input for company and price and create object from that.
+
+Part B: Constructors (__init__) (7–10)
+
+Write a class Person with __init__ that initializes name and city. Print them.
+
+Create a class Teacher with __init__ that takes name and subject. Create 2 objects.
+
+Write a BankAccount class where constructor initializes account_number and balance. Print balance.
+
+Create a Player class that asks for name and game when object is created. Print both.
+
+Part C: Class vs Instance Variables (11–15)
+
+Make a Dog class with class variable species = "Mammal" and instance variable name. Show difference.
+
+Create a School class with school_name as class variable, and student_name as instance variable.
+
+Write a class Employee where all employees share company name but each has unique salary.
+
+Demonstrate how changing a class variable affects all objects.
+
+Write a program where changing an instance variable affects only one object, not others.
+
+Part D: Methods (Instance, Class, Static) (16–20)
+
+Create a Circle class with radius. Add an instance method area() to calculate area.
+
+Write a class Math with pi as class variable. Add a class method to change pi’s value.
+
+Write a Utility class with a static method that prints today’s date.
+
+Create a Student class with instance method display(), class method school_info(), and static method welcome(). Call all three.
+
+Show example where static method works like a helper (e.g., check if a number is even).
+
+Part E: Inheritance (Single, Multiple, Multilevel) (21–28)
+
+Create a class Animal with method speak(). Inherit into Dog class that adds bark().
+
+Write a program with Vehicle as parent and Car as child. Print both details.
+
+Show multilevel inheritance: Grandparent → Parent → Child.
+
+Write a class Person (parent) with method greet(). Inherit into Teacher and call method.
+
+Demonstrate multiple inheritance with class Father and Mother → child class Son.
+
+Write a program where Shape class is parent, and Circle, Square inherit from it. Each prints area differently.
+
+Create a parent Bank with method loan_policy(). Child HDFC and SBI override it.
+
+Make a multilevel example: LivingBeing → Animal → Dog. Show one method in each level.
+
+
+Part F: Polymorphism (29–34)
+
+Write two classes Cat and Dog with method sound(). Call them in a loop.
+
+Demonstrate polymorphism using a function that takes any shape and calls area().
+
+Show operator overloading by defining __add__ for a Vector class.
+
+Create two classes Bike and Car, both with method wheels(). Call them polymorphically.
+
+Write program where same method calculate_salary() works differently for Intern and Manager.
+
+Demonstrate duck typing: any object with fly() method should work in a function make_it_fly(obj).
+
+
+Part G: Encapsulation (35–40)
+
+Create a class Account with private variable __balance. Add deposit() and get_balance().
+
+Show that trying to access __balance directly gives error.
+
+Write a Bank class that hides customer PIN using private variable. Provide only verify_pin() method.
+
+Create a class ATM where money withdrawal is only possible through withdraw() method, not directly.
+
+Make a class Locker with private password. Access it only using open_locker(passcode).
+
+Write a class Employee with private salary and show it can be updated only through give_raise().
+
+
+Part H: Abstraction (41–45)
+
+Write an abstract class Shape with abstract method area(). Implement it in Circle.
+
+Create an abstract class Vehicle with start(). Implement in Car and Bike.
+
+Write an abstract class Animal with make_sound(). Implement in Dog and Cat.
+
+Make an abstract class Payment with pay(). Implement it in CreditCard and UPI.
+
+Create an abstract class Appliance with turn_on(). Implement in Fan and Light.
+
+
+Part I: Mixed Advanced (46–50)
+
+Write a program showing class variable, instance variable, and static method all in one class.
+
+Build a program where Shape is abstract → Rectangle, Circle inherit → calculate areas → polymorphism used in loop.
+
+Make a banking system with Encapsulation + Inheritance: Account → SavingsAccount, CurrentAccount. Protect balance.
+
+Write a program with multiple inheritance: Student inherits from both Person and Course. Add details.
+
+Create a program combining Encapsulation + Abstraction: Abstract class User with abstract login(), concrete Customer with private password.

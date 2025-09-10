@@ -1,0 +1,248 @@
+“Think about a school 🏫.
+
+The school building plan is like a class (blueprint).
+
+The actual students are the objects created from that class.
+
+Each student has details (name, roll number) and can do actions (study, play).
+
+This is exactly what OOP in Python does — it lets us model real-world things as code.”
+
+
+Classes and Objects
+
+class Car:
+    def __init__(self, brand, color):
+        self.brand = brand
+        self.color = color
+
+car1 = Car("Toyota", "Red")
+car2 = Car("BMW", "Black")
+
+print(car1.brand)  
+print(car2.color)
+
+
+class Car: → Defines a blueprint called Car.
+
+__init__ → Special function (constructor) that runs whenever a new car object is created.
+
+self.brand = brand → Saves the brand name inside that specific object.
+
+car1 = Car("Toyota", "Red") → Creates an object car1 with brand Toyota, color Red.
+
+car2 = Car("BMW", "Black") → Another object, BMW and Black.
+
+print(car1.brand) → Fetches Toyota because car1 stores that.
+
+print(car2.color) → Fetches Black from car2.
+
+
+------------------------------------------------
+Constructors (__init__ method)
+
+class Student:
+    def __init__(self, name, roll_no):
+        self.name = name
+        self.roll_no = roll_no
+
+s1 = Student("Rahul", 101)
+print(s1.name)
+
+
+__init__ runs automatically when we create an object.
+
+self.name = name → Saves the student’s name into the object.
+
+s1 = Student("Rahul", 101) → Creates student Rahul, roll number 101.
+
+When we print s1.name, Python looks inside the object s1 and finds name = "Rahul".
+--------------------------------------------------------------
+
+Class Variables vs Instance Variables
+
+class Dog:
+    species = "Mammal"  # Class variable (shared)
+
+    def __init__(self, name):
+        self.name = name  # Instance variable (unique)
+
+d1 = Dog("Bruno")
+d2 = Dog("Tommy")
+
+print(d1.species)  # Mammal
+print(d2.name)     # Tommy
+
+species = "Mammal" → Same for all dogs, no matter which dog it is.
+
+self.name = name → Each dog has its own unique name.
+
+d1 = Dog("Bruno") → Creates dog Bruno.
+
+d2 = Dog("Tommy") → Creates dog Tommy.
+
+d1.species → Mammal (same for all).
+
+d2.name → Tommy (unique for this object).
+
+---------------------------------------------------------
+Methods (Instance, Class, Static)
+class Math:
+    pi = 3.14  # Class variable
+
+    def __init__(self, radius):
+        self.radius = radius
+
+    def area(self):  # Instance method
+        return Math.pi * self.radius * self.radius
+
+    @classmethod
+    def change_pi(cls, new_pi):  # Class method
+        cls.pi = new_pi
+
+    @staticmethod
+    def greet():  # Static method
+        print("Hello from Math class!")
+
+m = Math(5)
+print(m.area())
+Math.greet()
+
+def area(self): → Uses self.radius, so it’s an instance method.
+
+@classmethod → Works on the class itself (cls). If we call Math.change_pi(3.1416), it updates pi for everyone.
+
+@staticmethod → Does not need self or cls. It’s just a helper function inside the class.
+
+m = Math(5) → Circle with radius 5.
+
+m.area() → Calculates 3.14 × 5 × 5 = 78.5.
+
+Math.greet() → Prints Hello, independent of any object.
+
+--------------------------------------------------------
+Inheritance
+
+class Animal:
+    def speak(self):
+        print("Animal speaks")
+
+class Dog(Animal):  # Dog inherits Animal
+    def bark(self):
+        print("Woof!")
+
+d = Dog()
+d.speak()
+d.bark()
+
+
+class Dog(Animal) → Dog gets all features of Animal.
+
+d = Dog() → Creates a Dog object.
+
+d.speak() → Works because Dog inherited from Animal.
+
+d.bark() → Dog’s own method.
+------------------------------------------------------
+
+
+Polymorphism
+🖥 Example
+
+class Cat:
+    def sound(self):
+        print("Meow")
+
+class Dog:
+    def sound(self):
+        print("Woof")
+
+for animal in [Cat(), Dog()]:
+    animal.sound()
+	
+Both classes have the same method name sound.
+
+But when called, they behave differently.
+
+Cat().sound() → Meow.
+
+Dog().sound() → Woof.
+
+--------------------------------------------
+
+
+Encapsulation
+class Account:
+    def __init__(self, balance):
+        self.__balance = balance  # private
+
+    def deposit(self, amount):
+        self.__balance += amount
+
+    def get_balance(self):
+        return self.__balance
+
+acc = Account(1000)
+acc.deposit(500)
+print(acc.get_balance())
+
+
+self.__balance → Double underscore makes it private.
+
+You cannot directly do acc.__balance.
+
+You must use deposit() or get_balance() to change or read it.
+
+acc.deposit(500) → Adds money safely.
+
+print(acc.get_balance()) → Shows 1500.
+
+-----------------------------------------------
+
+Abstraction
+
+from abc import ABC, abstractmethod
+
+class Shape(ABC):
+    @abstractmethod
+    def area(self):
+        pass
+
+class Circle(Shape):
+    def __init__(self, r):
+        self.r = r
+
+    def area(self):
+        return 3.14 * self.r * self.r
+
+c = Circle(5)
+print(c.area())
+
+
+class Shape(ABC) → Abstract class = you cannot create Shape directly.
+
+@abstractmethod → Forces child classes to implement area.
+
+class Circle(Shape) → Inherits Shape and must write its own area method.
+
+c = Circle(5) → Circle of radius 5.
+
+c.area() → Calculates area = 78.5.
+------------------------------------------------------
+Class & Object → Blueprint vs Real thing
+
+Constructor → Admission form filled automatically
+
+Class vs Instance Variables → Shared vs Unique
+
+Methods → Instance, Class, Static
+
+Inheritance → Passes features from parent to child
+
+Polymorphism → Same name, different behavior
+
+Encapsulation → Protect data (ATM PIN)
+
+Abstraction → Hide details, show only essentials
+----------------------------------------------------
+
